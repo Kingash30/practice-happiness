@@ -3,7 +3,7 @@ import pymongo
 from bson import ObjectId
 import matplotlib.pyplot as plt
 
-client = ('mongodb+srv://readUser:conscentreadonly@conscent-production.dbgw6.mongodb.net/conscent?authSource=admin&replicaSet=atlas-wmfi84-shard-0&readPreference=primary&ssl=true')
+client = ('mongodb+srv')
 
 result = client['conscent']['purchases'].aggregate([
     {
